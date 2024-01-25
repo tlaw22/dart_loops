@@ -37,6 +37,13 @@ void main(List<String> arguments) {
   cities.forEach((city) {
     print(city);
   });
+
+// Nested for loops
+  outerLoop:for (int i = 0; i <= 5; i++) {
+    for (int j = 0; j <= 5; j++) {
+      print("$i $j");
+    } if (i == 2){
+      break outerLoop;
+    }
+  }
 }
-
-
