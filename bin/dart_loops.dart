@@ -38,7 +38,7 @@ void main(List<String> arguments) {
     print(city);
   });
 
-// Nested for loops
+// Nested for loops and the break/continue keywords
   outerLoop:for (int i = 0; i <= 5; i++) {
     for (int j = 0; j <= 5; j++) {
       print("$i $j");
